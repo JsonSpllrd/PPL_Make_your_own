@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #90ADC6;
+  }
+.container {
+    display: flex;
+    width: 98%;
+    height: 45rem;
+    border-radius: 0.rem;
+    overflow: hidden;
+    justify-content: space-around;
+  }
+.input-area, .output-area {
+    flex: 1;
+    padding: 1.25rem;
+    box-shadow: 0 0 10px #181f34;
+  }
+  
+  .input-area {
+    background-color: #333652;
+    margin-right: 2rem;
+  }
+  
+  .output-area {
+    background-color: #333652;
+  }
+  
+  h2 {
+    margin-bottom: 1rem;
+    margin-top: 0;
+    font-size: 3rem;
+    color: #FAD02C;
+  }
+  
+  textarea {
+    width: 97%;
+    height: 70%;
+    padding: 0.63rem;
+    border: 1px solid #333652;
+    border-radius: 4px;
+    resize: none;
+    font-size: 1em;
+    margin-bottom: 0.63rem;
+    background-color: #E9EAEC;
+  }
+  
+  .run, .analyze, .clear {
+    width: 100%;
+    padding: 0.63rem;
+    font-size: 1em;
+    background-color: #FAD02C;
+    color: #181f34;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 2rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+  
+  .run:hover, .analyze:hover, .clear:hover {
+    background-color: #333652;
+    border: 4px solid #FAD02C;
+    color: #FAD02C;
+    padding: 0.38rem;
+  }
+  .run:active, .analyze:active .clear:active {
+    opacity: 0.8;
+  }
+  
+  #output {
+    padding: 0.63rem;
+    height: 70%;
+    border: 1px solid #FAD02C;
+    border-radius: 4px;
+    font-size: 1.25rem;
+    overflow-y: auto;
+    margin-bottom: 0.63rem;
+    color: #FAD02C;
+  }
+  
+  .foot3 {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 6rem;
+    background-color: #181f34;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #FAD02C;
+}
+  

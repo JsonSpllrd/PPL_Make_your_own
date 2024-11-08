@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python++</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="style3.css">
+    <style>
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { padding: 10px; text-align: left; width: 50%; }
+        .button-container {
+            display: flex;
+            gap: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="head">
+            <div class="title">
+                <a href="home.html" class="home">
+                    <p class="name">Python++</p>
+                </a>
+            </div>
+            <div class="buttons">
+                <a href="compiler.html" class="compile">
+                    <button class="compiler">COMPILER</button>
+                </a>
+                <a href="home.html#author-point" class="members">
+                    <button class="authors">AUTHORS</button>
+                </a>
+                <a href="home.html#inspire-point" class="inspire">
+                    <button class="inspirations">INSPIRATIONS</button>
+                </a>
+                <a href="principles.html" class="principle">
+                    <button class="principles">PRINCIPLES</button>
+                </a>
+            </div>
+        </header>
+
+        <section class="input-area">
+            <h2><center>Input</center></h2>
+            <textarea id="inputText" placeholder="Type your code here..."></textarea>
+            <div class="button-container">
+                <button class="run" id="runButton" onclick="analyze()">Tokenize</button>
+                <!-- New Analyze button with no functionality yet -->
+                <button class="analyze" id="analyzeButton">Analyze</button>
+            </div>
+        </section>
+
+        <section class="output-area">
+            <h2><center>Output</center></h2>
+            <div id="output">Here is the output</div>
+            <button class="clear" id="clearButton" onclick="clearOutput()">Clear Output</button>
+        </section>
+
+        <footer class="foot3">
+            <p class="name">Python++</p>
+            <p class="description">Write more. Debug less.</p>
+        </footer>
+        <script src="script.js">
+        </script>
+    </div>
+</body>
+</html>

@@ -1,0 +1,38 @@
+.docs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 65rem;
+  margin-top: 8rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+.col1, .col2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  background-color: #333652;
+  color: #FAD02C;
+  padding: 0.5rem 2rem;
+  margin-bottom: 4rem;
+  font-size: 2rem;
+}
+.pdf {
+  width: 95%;
+  height: 55rem;
+  box-shadow: 0 0 2rem #333652;
+}
+.foot2 {
+  position: absolute;
+  top: 78rem;
+  left: 0;
+  right: 0;
+  height: 6rem;
+  background-color: #181f34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #FAD02C;
+}
